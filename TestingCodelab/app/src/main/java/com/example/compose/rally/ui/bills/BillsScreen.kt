@@ -27,7 +27,7 @@ import com.example.compose.rally.ui.components.StatementBody
  * The Bills screen.
  */
 @Composable
-fun BillsBody(bills: List<Bill>) {
+fun BillsBody(bills: List<com.example.compose.rally.data.Bill>) {
     StatementBody(
         items = bills,
         amounts = { bill -> bill.amount },

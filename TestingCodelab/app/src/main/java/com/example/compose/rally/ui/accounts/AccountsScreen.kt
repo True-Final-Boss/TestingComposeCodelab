@@ -27,7 +27,7 @@ import com.example.compose.rally.ui.components.StatementBody
  * The Accounts screen.
  */
 @Composable
-fun AccountsBody(accounts: List<Account>) {
+fun AccountsBody(accounts: List<com.example.compose.rally.data.Account>) {
     StatementBody(
         items = accounts,
         amounts = { account -> account.balance },
